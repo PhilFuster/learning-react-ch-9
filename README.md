@@ -1,3 +1,5 @@
+Chapter 9 of Learning React by Eve Porcello & Alex Banks. Notes, examples, a little tinkering.
+-----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
