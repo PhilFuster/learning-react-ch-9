@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import Callout from './components/Callout';
 import './App.css';
+import SiteLayout from './components/SiteLayout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <SiteLayout menu={<p>{`<Menu \\>`}</p>}>
+        <>
+          <Callout>Callout</Callout>
+          <h1>{`<Contents\\>`}</h1>
+          <p>This is the main part of the example layout</p>
+        </>
+      </SiteLayout>
     </div>
   );
 }
