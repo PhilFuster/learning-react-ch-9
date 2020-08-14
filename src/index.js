@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import ErrorBoundary from './components/ErrorBoundary';
 import ErrorScreen from './components/ErrorScreen';
 import './index.css';
-import App from './App';
+import App from './AppV3';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
