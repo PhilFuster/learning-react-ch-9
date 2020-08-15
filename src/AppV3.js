@@ -33,7 +33,7 @@ function App() {
             </Callout>
           </ErrorBoundary>
           <ErrorBoundary>
-            <h1>{`<Contents\\>`}</h1>
+            <h1>&lt;Contents /&gt;</h1>
             <p>This is the main part of the example layout</p>
           </ErrorBoundary>
         </>

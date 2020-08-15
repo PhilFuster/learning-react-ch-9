@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ErrorBoundary from './components/ErrorBoundary';
-import ErrorScreen from './components/ErrorScreen';
+import ErrorBoundary from './components/ErrorBoundaryV2';
 import './index.css';
-import App from './AppV3';
+import App from './AppV6';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ErrorBoundary fallback={ErrorScreen}>
+    <ErrorBoundary>
       <App />
     </ErrorBoundary>
   </React.StrictMode>,
